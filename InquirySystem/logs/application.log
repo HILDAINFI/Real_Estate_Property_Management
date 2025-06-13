@@ -1,0 +1,55 @@
+2025-05-09T10:08:32.847+05:30  INFO 6476 --- [InquirySystem] [restartedMain] c.example.demo.InquirySystemApplication  : Starting InquirySystemApplication using Java 21.0.6 with PID 6476 (C:\Users\2400640\git\repository2\InquirySystem\target\classes started by 2400640 in C:\Users\2400640\git\repository2\InquirySystem)
+2025-05-09T10:08:32.849+05:30  INFO 6476 --- [InquirySystem] [restartedMain] c.example.demo.InquirySystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-05-09T10:08:32.883+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-05-09T10:08:32.884+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=InquirySystem, profiles=[default], label=null, version=b7471102fa4992b5862b8704b8d9c740ce9d0546, state=
+2025-05-09T10:08:32.886+05:30  INFO 6476 --- [InquirySystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-09T10:08:32.886+05:30  INFO 6476 --- [InquirySystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-09T10:08:33.752+05:30  INFO 6476 --- [InquirySystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-09T10:08:33.791+05:30  INFO 6476 --- [InquirySystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2025-05-09T10:08:33.900+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d988b615-8ef7-3777-ba7e-bede9d620c2e
+2025-05-09T10:08:34.420+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2025-05-09T10:08:34.430+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-09T10:08:34.431+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-09T10:08:34.470+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-09T10:08:34.470+05:30  INFO 6476 --- [InquirySystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1584 ms
+2025-05-09T10:08:34.712+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-09T10:08:34.749+05:30  INFO 6476 --- [InquirySystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-09T10:08:34.775+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-09T10:08:34.955+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-09T10:08:34.976+05:30  INFO 6476 --- [InquirySystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-09T10:08:35.244+05:30  INFO 6476 --- [InquirySystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6485b55c
+2025-05-09T10:08:35.245+05:30  INFO 6476 --- [InquirySystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-09T10:08:35.283+05:30  WARN 6476 --- [InquirySystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-09T10:08:35.295+05:30  INFO 6476 --- [InquirySystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-09T10:08:35.896+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-09T10:08:35.970+05:30  INFO 6476 --- [InquirySystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-09T10:08:36.319+05:30  WARN 6476 --- [InquirySystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-09T10:08:36.926+05:30  WARN 6476 --- [InquirySystem] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 78a1338c-70e8-4dda-8e18-0db048ce9f78
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-05-09T10:08:36.939+05:30  INFO 6476 --- [InquirySystem] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-05-09T10:08:37.048+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2025-05-09T10:08:37.212+05:30  WARN 6476 --- [InquirySystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-05-09T10:08:37.301+05:30  INFO 6476 --- [InquirySystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2025-05-09T10:08:37.314+05:30  INFO 6476 --- [InquirySystem] [restartedMain] c.example.demo.InquirySystemApplication  : Started InquirySystemApplication in 6.518 seconds (process running for 7.608)
+2025-05-09T10:08:37.604+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-09T10:08:37.604+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-09T10:08:37.605+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-09T11:17:46.447+05:30  WARN 6476 --- [InquirySystem] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m7s231ms433µs300ns).
+2025-05-09T13:54:48.513+05:30  WARN 6476 --- [InquirySystem] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m29s147ms681µs200ns).
+2025-05-09T14:04:22.347+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(194)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-09T14:04:22.682+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(194)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-09T14:04:22.767+05:30  INFO 6476 --- [InquirySystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-09T14:04:22.910+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(194)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-09T14:04:23.068+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(194)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-09T14:04:23.094+05:30  INFO 6476 --- [InquirySystem] [RMI TCP Connection(194)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
